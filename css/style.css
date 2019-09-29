@@ -1,0 +1,107 @@
+/* Text */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+  }
+  h1 {
+      color:#1ABFCC;
+      font-size: 42 pt;
+      font-weight: bold;
+  }
+
+  h2 {
+    color:#FE6159;
+    font-size: 36;
+    font-weight: 300;
+  }
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+.navbar-nav {
+  margin-left: 10%;
+}
+
+.nav-item {
+  margin: 20% 10% 0% 0;
+}
+
+.nav-item1 {
+    margin: 20% 10% 0% 0;
+     border-bottom: 3px solid #FE6159;
+    
+}
+hr {
+    margin: 0; 
+}
+.aboutMe {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+.aboutParagraph {
+    grid-column: 2 / span 4;
+    margin-left: 20%;
+    margin-top: 40%; 
+}
+
+.aboutPhoto {
+    align-content: end;
+    justify-content: end;
+    margin-top: 0;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #EBEBEB;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border: solid thin rgb(214, 214, 214);
+    border-width: thin;
+}
+.blockContent {
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+}
+
+.Projects {
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.card {
+     margin-left: 13%;
+     margin-right: 5%;
+ } 
+ .card-title {
+    font-weight: 300;
+ }  
+.card-body {
+    margin-top: 5%;
+    padding: 10%;
+}
+.nasaImage {
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
